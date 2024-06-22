@@ -80,6 +80,7 @@ class LoginViewModel extends GetxController{
 
             // Get.find<AppSession>()
 
+
             await AppSession
                 .currentUser
                 .handleCurrentUserData(
